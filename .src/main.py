@@ -18,6 +18,7 @@ def get_color_request() :
         os.system('cls')
         time.sleep(1)
 
+# Test
 if __name__ == "__main__" : 
     while True : 
         get_color_request()
