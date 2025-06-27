@@ -8,7 +8,7 @@ def insert_data() :
         data.connect_sql_insert(table,value)
     except Exception as e:
         print(f"An error occurred during select data : {e}")
-        
+
 def select_data() :
     try:
         data = ms_db_connect()
